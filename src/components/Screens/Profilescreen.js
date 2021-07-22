@@ -9,12 +9,13 @@ const { TabPane } = Tabs;
 
 const Profilescreen = () => {
 
-const user  = JSON.parse(localStorage.getItem('currentuser'))
+    const user  = JSON.parse(localStorage.getItem('currentuser'))
 useEffect(() => {
+   
       if(!user){
           window.location.href='/login'
       }
-},[])
+},[user])
 
 
     return (
@@ -52,7 +53,7 @@ export const MyBookings = () => {
             setLoading(false)
         }
         getuserdata()
-    }, [])
+    }, [user._id])
 
 const cancelbooking = async(bookingid, roomid) => {
     try {
