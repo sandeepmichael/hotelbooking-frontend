@@ -18,7 +18,7 @@ const Loginscreen = (props) => {
         }
         try{
             setLoading(true)
-            const res = await axios.post('https://dry-ocean-12978.herokuapp.com/login', user)
+            const res = await axios.post('https://dry-ocean-12978.herokuapp.com/api/users/login', user)
             console.log(res.data)
             setLoading(false)
             localStorage.setItem('currentuser', JSON.stringify(res.data))
