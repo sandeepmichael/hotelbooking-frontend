@@ -22,7 +22,7 @@ const Registerscreen = () => {
 
           try{
               setLoading(true)
-              const res = await axios.post('https://dry-ocean-12978.herokuapp.com/api/users/register', user)
+              const res = await axios.post('https://dry-ocean-12978.herokuapp.com/register', user)
               console.log(res.data)
               setLoading(false)
               setSuccess(true)
