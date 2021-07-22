@@ -2,7 +2,7 @@ import React,{useEffect, useState} from 'react'
 import axios from 'axios'
 import Room from '../Room'
 import Loader from '../Loader'
-import { DatePicker, Space } from 'antd';
+import { DatePicker,} from 'antd';
 import moment from 'moment'
 import 'antd/dist/antd.css'
 const { RangePicker } = DatePicker
@@ -58,7 +58,7 @@ function Homescreen() {
                
                
              }
-             if(availability == true || room.currentbookings.length == 0) 
+             if(availability === true || room.currentbookings.length === 0) 
              {
                temp.push(room)
              }

@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 import axios from 'axios';
 import Loader from '../Loader';
 import Swal from 'sweetalert2'
-import { Tag, Divider } from 'antd';
+import { Tag, } from 'antd';
 import { Tabs } from 'antd';
 
 const { TabPane } = Tabs;

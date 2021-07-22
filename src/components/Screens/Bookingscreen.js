@@ -75,7 +75,7 @@ const onToken = async(token) => {
                <div className='row justify-content-center mt-5 bs'>
                    <div className='col-md-5'>
                        <h1>{room.name}</h1>
-                       <img src={room.imageurls[0]} className='image2' />
+                       <img src={room.imageurls[0]} className='image2' alt="Image" />
                        </div>
                        <div className='col-md-5'>
                            <div>
