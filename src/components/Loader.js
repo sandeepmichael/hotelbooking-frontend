@@ -2,8 +2,7 @@ import React, {useState} from 'react'
 import BeatLoader from 'react-spinners/BeatLoader'
 
 const Loader = () => {
-    let [loading, setLoading] = useState(true);
-    let [color, setColor] = useState("#ffffff");
+    let [loading,] = useState(true);
     return (
         <div style={{marginTop:'150px'}}>
               <div className="sweet-loading text-center">

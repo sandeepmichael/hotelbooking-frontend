@@ -1,8 +1,5 @@
 import React, {useEffect, useState} from 'react'
 import { Tabs } from 'antd';
-import Loader from '../Loader'
-import Swal from 'sweetalert2'
-import axios from 'axios';
 import Addroom from '../Adminpanel/Addroom';
 import Users from '../Adminpanel/Adminusers';
 import Rooms from '../Adminpanel/Adminrooms';
