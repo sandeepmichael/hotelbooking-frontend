@@ -27,6 +27,7 @@
     "react-stripe-checkout": "^2.6.3",
     "redux": "^4.1.0",
     "scrollmagic": "^2.0.8",
+    "sweetalert2": "^11.0.19",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
